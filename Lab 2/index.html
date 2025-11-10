@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+   <hr/>
+  <section id="about">
+    <h2>About Me</h2>
+    <br>
+    <img src="image.jpg" alt="My photo" width="200" height="200">
+    <br>
+    <p>Hello! My name is Aprajita Mishra. I'm learning web development and this is my portfolio website.</p>
+  </section>
+  <hr>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Learning</td>
+      </tr>
+    </table>
+  </section>
+  <hr>
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-list">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A simple HTML & CSS webpage.</p>
+      </div>
+      <img src="image1.jpg" alt="project 1" width="180" height="180">
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Another awesome mini project Using Python Calorie Tracker.</p>
+      </div>
+      <img src="image2.jpg" alt="project2" width="200" height="200">
+    </div>
+  </section>
+  <hr>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+
+      <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" placeholder="Enter your name"></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" placeholder="Enter your email"></td>
+        </tr>
+
+        <tr>
+            <td><label for="message">Message:</label></td>
+            <td><textarea id="message" placeholder="Write your message"></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <button type="submit">Send</button>
+            </td>
+        </tr>
+    </table>
+    </form>
+      <button type="button" onclick="window.scrollTo(0,0)">Back to Top</button>
+  </section>
+
+  <footer>
+    <p>Made by Aprajita Mishra</p>
+  </footer>
+
+</body>
+</html>
